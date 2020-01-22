@@ -1,0 +1,7 @@
+- AuroraDB Clusters and DynamoDB can be scaled
+- Load Balance Algorithms used: 
+    - Round Robin
+    - Randomized
+    - Centrally Managed: makes decisions based on the environment
+    - Threshold-Based
+- ELB
