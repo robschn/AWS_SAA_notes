@@ -189,5 +189,40 @@
 
 ### Speed
 - Columnar data stores
-- 
+  - like an excel spreadsheet
+  - very fast sequential reads
+- Data compression
+- Massively Parallel Processing (MPP)
+
+### Security
+- SSL transit encryption
+- AES-256 for at-rest encryption
+- Managed through AWS Key Management
+
+### Availability
+- operates in one AZ
+- Snapshots can be restored to new AZs
+
+## DynamoDB
+
+### What is it?
+- NoSQL service
+- not a relationship database
+- provide special features
+  - millisecond latency at any scale
+    - Very VERY fast RW
+  - Stored on SSD
+  - Spread across 3 distinct data centers
+- read consistency types
+  - eventual reads
+    - few seconds delay
+  - strongly reads
+
+### Pricing
+- Storage
+  - $0.25/GB per month
+- Throughput
+  - Write: billed per hour for every 10 units
+  - Read: billed per hour for every 50 units
+  - 1 unit equals 1 RW per second
 
